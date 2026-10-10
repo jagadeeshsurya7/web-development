@@ -1,0 +1,23 @@
+.h1-tag{
+    color: blue;
+    font-style: oblique;
+}h1{
+    color: red;
+}.nav-bar{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: bisque;
+    padding: 30px;
+    text-align: center;
+}.nav-bar a{
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}.nav-bar a:hover{
+    color: white;
+    text-decoration: underline;
+    background-color: black;
+    font-size: 25px;
+}
