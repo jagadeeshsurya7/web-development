@@ -3,6 +3,7 @@
     font-style: oblique;
 }h1{
     color: red;
+    text-align: center;
 }.nav-bar{
     border-color: black;
     border-width: 2px;
@@ -20,4 +21,26 @@
     text-decoration: underline;
     background-color: black;
     font-size: 25px;
+}.card{
+    text-align: center;
+    border: 2px solid black;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}.card img{
+    width: 250px;
+}.card button{
+    width: 70%;
+    padding: 8px;
+    border-radius: 30px;
+    background-color: bisque;
+}.card button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
